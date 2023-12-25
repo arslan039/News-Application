@@ -1,10 +1,8 @@
 import React from 'react';
 
-
-
 export default function NewsItem(props) {
-  let {title,description,imgUrl, newsUrl, author,date,source } =
-  props
+
+  let {title,description,imgUrl, newsUrl, author,date,source } =  props;
   return (
     <div>
         <div className="card" >
